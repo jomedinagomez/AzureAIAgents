@@ -1,0 +1,23 @@
+**Table: customers**  
+Fields: cust_id, cust_name, cust_email, cust_phone, cust_address  
+Example: John Doe, john.doe@example.com, 555-123-4567, 123 Main St, City A  
+
+**Table: merchants**  
+Fields: merchant_id, merchant_name, merchant_region, merchant_address  
+Example: ElectroMegaMart, North America, 123 Tech Plaza, New York, NY 10001  
+
+**Table: products**  
+Fields: prod_id, prod_name, price, category  
+Example: Surface Pro 9, 999.99, Tablet  
+
+**Table: sales**  
+Fields: sale_id, cust_id, merchant_id, date, total_price  
+Example: 1, 8, 9, 2023-01-01, 75  
+
+**Table: sales_detail**  
+Fields: sales_id, prod_id, quantity  
+Example: 1, 1, 97  
+
+**Table: stock**  
+Fields: prod_id, merchant_id, stock  
+Example: 1, 1, 403  
